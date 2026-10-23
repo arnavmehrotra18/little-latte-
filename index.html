@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Little Latte — Café & Comfort</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="cursorGlow"></div><div id="trail"></div>
+<header class="nav glass"><a class="brand" href="#home"><span>☕</span> Little Latte</a><nav><a href="#home">Home</a><a href="#menu">Menu</a><a href="#story">Our Story</a><a href="#visit">Visit</a></nav><button class="cart-btn touch" id="cartBtn">Bag <b id="cartCount">0</b></button></header>
+<main>
+<section class="hero" id="home"><div class="hero-overlay"></div><div class="hero-copy"><p class="eyebrow">SLOW MORNINGS • WARM CUPS</p><h1>A little latte,<br><em>a lot of comfort.</em></h1><p>Handcrafted coffee, buttery bakes and cozy plates made for lingering a little longer.</p><div class="hero-actions"><a class="primary touch" href="#menu">Explore our menu</a><a class="secondary touch" href="#visit">Find your table</a></div></div><div class="floating-card glass"><span>Today’s mood</span><strong>Caramel cloud latte</strong><small>espresso • vanilla • sea-salt foam</small></div></section>
+<section class="marquee"><div>FRESHLY BAKED ✦ SMALL BATCH ✦ COZY CORNERS ✦ GOOD COFFEE ✦ FRESHLY BAKED ✦ SMALL BATCH ✦ COZY CORNERS ✦ GOOD COFFEE ✦</div></section>
+<section class="intro" id="story"><p class="eyebrow">WELCOME TO LITTLE LATTE</p><h2>Your neighbourhood pause button.</h2><p>Soft lights, warm wood, glossy details and the smell of coffee in the air. Little Latte is designed for catch-ups, quiet work, first dates and slow solo mornings.</p><div class="stats"><div><b>56</b><span>things to crave</span></div><div><b>100%</b><span>cozy energy</span></div><div><b>∞</b><span>reasons to stay</span></div></div></section>
+<section class="menu-section" id="menu"><div class="menu-head"><div><p class="eyebrow">THE LITTLE LATTE MENU</p><h2>Pick your comfort.</h2></div><label class="search glass">⌕ <input id="search" placeholder="Search coffee, pasta, cake..."></label></div><div class="filters" id="filters"></div><div class="menu-grid" id="menuGrid"></div></section>
+<section class="banner"><div><p class="eyebrow">A LITTLE EXTRA</p><h2>Coffee tastes better<br>with company.</h2><p>Bring your favourite people. We’ll take care of the cups and crumbs.</p></div></section>
+<section class="visit" id="visit"><div><p class="eyebrow">COME SAY HI</p><h2>Your cozy corner is waiting.</h2><p>Open daily • 8:00 AM – 10:00 PM</p><p class="muted">Add your café address, phone number and Instagram here before publishing.</p></div><div class="hours glass"><div><span>Mon — Fri</span><b>8 AM — 10 PM</b></div><div><span>Saturday</span><b>8 AM — 11 PM</b></div><div><span>Sunday</span><b>9 AM — 10 PM</b></div></div></section>
+</main>
+<footer><a class="brand" href="#home">☕ Little Latte</a><p>Made with warmth, butter & really good coffee.</p><p>© 2026 Little Latte</p></footer>
+<div class="cart-panel glass" id="cartPanel"><button class="close touch" id="closeCart">×</button><h2>Your little bag</h2><div id="cartItems"></div><div class="cart-total"><span>Total</span><b id="total">₹0</b></div><button class="checkout touch">Order at the counter →</button></div><div id="toast"></div>
+<script src="script.js"></script>
+</body></html>
